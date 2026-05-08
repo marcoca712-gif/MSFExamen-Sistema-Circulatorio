@@ -1,0 +1,26 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: 'Examen: Sistema Circulatorio'
+message: Modelado de Sistemas Fisiológicos / Ingenieria Biomedica
+type: software
+authors:
+  - given-names: Marco A.
+    family-names: Campoy
+    email: l21212145@tectijuana.edu.mx
+    affiliation: Tecnologico Nacional de Mexico
+identifiers:
+  - type: url
+    value: >-
+      https://github.com/marcoca712-gif/MSFExamen-Sistema-Circulatorio
+    description: Repositorio Github
+repository-code: >-
+  https://github.com/marcoca712-gif/MSFExamen-Sistema-Circulatorio
+keywords:
+  - Hermodinamica
+  - Complianza arterial
+  - Flujo Fs (t)
+  - Resistencia vascular periférica
+license: BSD-2-Clause
+date-released: '2026-05-07'
