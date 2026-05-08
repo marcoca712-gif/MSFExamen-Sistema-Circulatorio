@@ -28,24 +28,23 @@ La asignatura de Modelado de Sistemas Fisiológicos forma parte del plan de estu
 componentes, voltajes, corrientes y nodos de entrada y salida. 
 2. (Determine el modelo de ecuaciones integro-diferenciales.
 3. Calcule la funcion de transferencia del sistema.
-4. Calcule el error en estado estacionario.
-5. Ilustre la respuesta en lazo abierto del control y del caso a un escalon unitario de entrada en Python
+4. Ilustre la respuesta en lazo abierto del control y del caso a un escalon unitario de entrada en Python
 o Simulink.
-6. Dise;e un controlador en lazo cerrado, con base en el siguiente diagrama, que permita eliminar el
+5. Diseñe un controlador en lazo cerrado, con base en el siguiente diagrama, que permita eliminar el
 error en la respuesta del caso
 
 ## Descripción detallada del sistema
 El sistema circulatorio es el encargado de bombear, transportar y distribuir la sangre, oxígeno y nutrientes por todo el cuerpo. Esta hemodinámica puede representarse de forma simplificada mediante un circuito eléctrico de segundo orden (acorde a los modelos tipo Windkessel), modelando los procesos de eyección cardíaca, complianza arterial y resistencia vascular bajo las siguientes suposiciones:
 
-La presión generada por el corazón (por ejemplo, la presión del ventrículo izquierdo) se modela mediante una fuente de voltaje de entrada V_e(t), que representa la fuerza impulsora inicial del sistema.
+La presión generada por el corazón (por ejemplo, la presión del ventrículo izquierdo) se modela mediante una fuente de voltaje de entrada Ve(t), que representa la fuerza impulsora inicial del sistema.
 
-La oposición al flujo sanguíneo en las válvulas cardíacas o en la aorta proximal se modela con una resistencia R_1, asociada a la resistencia característica inicial durante la eyección de la sangre.
+La oposición al flujo sanguíneo en las válvulas cardíacas o en la aorta proximal se modela con una resistencia R1, asociada a la resistencia característica inicial durante la eyección de la sangre.
 
 La elasticidad de las grandes arterias (complianza arterial), que les permite expandirse y almacenar volumen de sangre temporalmente, se representa con un capacitor C, el cual regula y amortigua los cambios de presión en el tiempo.
 
-La circulación periférica se modela mediante una segunda rama con una resistencia R_2 y una inductancia L, representando la resistencia vascular sistémica (de arteriolas y capilares) y la inercia biológica de la masa sanguínea en movimiento, respectivamente.
+La circulación periférica se modela mediante una segunda rama con una resistencia R2 y una inductancia L, representando la resistencia vascular sistémica (de arteriolas y capilares) y la inercia biológica de la masa sanguínea en movimiento, respectivamente.
 
-Se identifican los siguientes dos flujos en el sistema: el flujo de entrada o gasto cardíaco F_e(t) y el flujo de salida o perfusión tisular F_s(t).
+Se identifican los siguientes dos flujos en el sistema: el flujo de entrada o gasto cardíaco Fe(t) y el flujo de salida o perfusión tisular Fs(t).
 
 Palabras clave: Hemodinámica; Complianza arterial; Flujo Fs (t); Resistencia vascular periférica;
 
