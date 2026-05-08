@@ -4,7 +4,7 @@
 
 ## Información del estudiante
 
-Campoy Alegria Marco Anytonio \[21212145]; L21212145@tectijuana.edu.mx
+Campoy Alegria Marco Antonio \[21212145]; L21212145@tectijuana.edu.mx
 
 Modelado de Sistemas Fisiológicos
 
